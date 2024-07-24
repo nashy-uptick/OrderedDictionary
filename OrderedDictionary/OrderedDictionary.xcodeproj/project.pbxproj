@@ -7,156 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50BB91B12C50D22B0090456D /* UPTOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BB91B02C50D22B0090456D /* UPTOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50BB91B92C50D24E0090456D /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BB91B72C50D24E0090456D /* OrderedDictionary.h */; };
-		50BB91BA2C50D24E0090456D /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BB91B82C50D24E0090456D /* OrderedDictionary.m */; };
-		50BB91C32C50D25D0090456D /* UPTOrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BB91AD2C50D22B0090456D /* UPTOrderedDictionary.framework */; platformFilter = ios; };
-		50BB91CA2C50D2740090456D /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BB91C92C50D2740090456D /* UnitTests.m */; };
+		50049CF72C50DA0A0072641D /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 50049CF62C50DA0A0072641D /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50049CFE2C50DA300072641D /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 50049CFD2C50DA300072641D /* OrderedDictionary.m */; };
+		50049D152C50DA500072641D /* OrderedDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50049CF32C50DA0A0072641D /* OrderedDictionary.framework */; platformFilter = ios; };
+		50049D1C2C50DA690072641D /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50049D1B2C50DA690072641D /* UnitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50BB91C42C50D25D0090456D /* PBXContainerItemProxy */ = {
+		50049D162C50DA500072641D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 50BB91A42C50D22B0090456D /* Project object */;
+			containerPortal = 50049CEA2C50DA0A0072641D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 50BB91AC2C50D22B0090456D;
-			remoteInfo = UPTOrderedDictionary;
+			remoteGlobalIDString = 50049CF22C50DA0A0072641D;
+			remoteInfo = OrderedDictionary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		50BB91AD2C50D22B0090456D /* UPTOrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPTOrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50BB91B02C50D22B0090456D /* UPTOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPTOrderedDictionary.h; sourceTree = "<group>"; };
-		50BB91B72C50D24E0090456D /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
-		50BB91B82C50D24E0090456D /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
-		50BB91BF2C50D25D0090456D /* UPTOrderedDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPTOrderedDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50BB91C92C50D2740090456D /* UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		50049CF32C50DA0A0072641D /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50049CF62C50DA0A0072641D /* OrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		50049CFD2C50DA300072641D /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		50049D112C50DA500072641D /* OrderedDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderedDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50049D1B2C50DA690072641D /* UnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		50049D1D2C50DA920072641D /* OrderedDictionary.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OrderedDictionary.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50BB91AA2C50D22B0090456D /* Frameworks */ = {
+		50049CF02C50DA0A0072641D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BB91BC2C50D25D0090456D /* Frameworks */ = {
+		50049D0E2C50DA500072641D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BB91C32C50D25D0090456D /* UPTOrderedDictionary.framework in Frameworks */,
+				50049D152C50DA500072641D /* OrderedDictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50BB91A32C50D22B0090456D = {
+		50049CE92C50DA0A0072641D = {
 			isa = PBXGroup;
 			children = (
-				50BB91AF2C50D22B0090456D /* UPTOrderedDictionary */,
-				50BB91C02C50D25D0090456D /* UPTOrderedDictionaryTests */,
-				50BB91AE2C50D22B0090456D /* Products */,
+				50049D1D2C50DA920072641D /* OrderedDictionary.xctestplan */,
+				50049CF52C50DA0A0072641D /* OrderedDictionary */,
+				50049D122C50DA500072641D /* OrderedDictionaryTests */,
+				50049CF42C50DA0A0072641D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		50BB91AE2C50D22B0090456D /* Products */ = {
+		50049CF42C50DA0A0072641D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50BB91AD2C50D22B0090456D /* UPTOrderedDictionary.framework */,
-				50BB91BF2C50D25D0090456D /* UPTOrderedDictionaryTests.xctest */,
+				50049CF32C50DA0A0072641D /* OrderedDictionary.framework */,
+				50049D112C50DA500072641D /* OrderedDictionaryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50BB91AF2C50D22B0090456D /* UPTOrderedDictionary */ = {
+		50049CF52C50DA0A0072641D /* OrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				50BB91B02C50D22B0090456D /* UPTOrderedDictionary.h */,
-				50BB91B72C50D24E0090456D /* OrderedDictionary.h */,
-				50BB91B82C50D24E0090456D /* OrderedDictionary.m */,
+				50049CF62C50DA0A0072641D /* OrderedDictionary.h */,
+				50049CFD2C50DA300072641D /* OrderedDictionary.m */,
 			);
-			path = UPTOrderedDictionary;
+			path = OrderedDictionary;
 			sourceTree = "<group>";
 		};
-		50BB91C02C50D25D0090456D /* UPTOrderedDictionaryTests */ = {
+		50049D122C50DA500072641D /* OrderedDictionaryTests */ = {
 			isa = PBXGroup;
 			children = (
-				50BB91C92C50D2740090456D /* UnitTests.m */,
+				50049D1B2C50DA690072641D /* UnitTests.m */,
 			);
-			path = UPTOrderedDictionaryTests;
+			path = OrderedDictionaryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		50BB91A82C50D22B0090456D /* Headers */ = {
+		50049CEE2C50DA0A0072641D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BB91B92C50D24E0090456D /* OrderedDictionary.h in Headers */,
-				50BB91B12C50D22B0090456D /* UPTOrderedDictionary.h in Headers */,
+				50049CF72C50DA0A0072641D /* OrderedDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50BB91AC2C50D22B0090456D /* UPTOrderedDictionary */ = {
+		50049CF22C50DA0A0072641D /* OrderedDictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50BB91B42C50D22B0090456D /* Build configuration list for PBXNativeTarget "UPTOrderedDictionary" */;
+			buildConfigurationList = 50049CFA2C50DA0A0072641D /* Build configuration list for PBXNativeTarget "OrderedDictionary" */;
 			buildPhases = (
-				50BB91A82C50D22B0090456D /* Headers */,
-				50BB91A92C50D22B0090456D /* Sources */,
-				50BB91AA2C50D22B0090456D /* Frameworks */,
-				50BB91AB2C50D22B0090456D /* Resources */,
+				50049CEE2C50DA0A0072641D /* Headers */,
+				50049CEF2C50DA0A0072641D /* Sources */,
+				50049CF02C50DA0A0072641D /* Frameworks */,
+				50049CF12C50DA0A0072641D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UPTOrderedDictionary;
-			productName = UPTOrderedDictionary;
-			productReference = 50BB91AD2C50D22B0090456D /* UPTOrderedDictionary.framework */;
+			name = OrderedDictionary;
+			productName = OrderedDictionary;
+			productReference = 50049CF32C50DA0A0072641D /* OrderedDictionary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50BB91BE2C50D25D0090456D /* UPTOrderedDictionaryTests */ = {
+		50049D102C50DA500072641D /* OrderedDictionaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50BB91C62C50D25D0090456D /* Build configuration list for PBXNativeTarget "UPTOrderedDictionaryTests" */;
+			buildConfigurationList = 50049D182C50DA500072641D /* Build configuration list for PBXNativeTarget "OrderedDictionaryTests" */;
 			buildPhases = (
-				50BB91BB2C50D25D0090456D /* Sources */,
-				50BB91BC2C50D25D0090456D /* Frameworks */,
-				50BB91BD2C50D25D0090456D /* Resources */,
+				50049D0D2C50DA500072641D /* Sources */,
+				50049D0E2C50DA500072641D /* Frameworks */,
+				50049D0F2C50DA500072641D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				50BB91C52C50D25D0090456D /* PBXTargetDependency */,
+				50049D172C50DA500072641D /* PBXTargetDependency */,
 			);
-			name = UPTOrderedDictionaryTests;
-			productName = UPTOrderedDictionaryTests;
-			productReference = 50BB91BF2C50D25D0090456D /* UPTOrderedDictionaryTests.xctest */;
+			name = OrderedDictionaryTests;
+			productName = OrderedDictionaryTests;
+			productReference = 50049D112C50DA500072641D /* OrderedDictionaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50BB91A42C50D22B0090456D /* Project object */ = {
+		50049CEA2C50DA0A0072641D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					50BB91AC2C50D22B0090456D = {
+					50049CF22C50DA0A0072641D = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					50BB91BE2C50D25D0090456D = {
+					50049D102C50DA500072641D = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 50BB91A72C50D22B0090456D /* Build configuration list for PBXProject "UPTOrderedDictionary" */;
+			buildConfigurationList = 50049CED2C50DA0A0072641D /* Build configuration list for PBXProject "OrderedDictionary" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,26 +163,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 50BB91A32C50D22B0090456D;
-			productRefGroup = 50BB91AE2C50D22B0090456D /* Products */;
+			mainGroup = 50049CE92C50DA0A0072641D;
+			productRefGroup = 50049CF42C50DA0A0072641D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50BB91AC2C50D22B0090456D /* UPTOrderedDictionary */,
-				50BB91BE2C50D25D0090456D /* UPTOrderedDictionaryTests */,
+				50049CF22C50DA0A0072641D /* OrderedDictionary */,
+				50049D102C50DA500072641D /* OrderedDictionaryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50BB91AB2C50D22B0090456D /* Resources */ = {
+		50049CF12C50DA0A0072641D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BB91BD2C50D25D0090456D /* Resources */ = {
+		50049D0F2C50DA500072641D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,35 +192,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50BB91A92C50D22B0090456D /* Sources */ = {
+		50049CEF2C50DA0A0072641D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BB91BA2C50D24E0090456D /* OrderedDictionary.m in Sources */,
+				50049CFE2C50DA300072641D /* OrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BB91BB2C50D25D0090456D /* Sources */ = {
+		50049D0D2C50DA500072641D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BB91CA2C50D2740090456D /* UnitTests.m in Sources */,
+				50049D1C2C50DA690072641D /* UnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50BB91C52C50D25D0090456D /* PBXTargetDependency */ = {
+		50049D172C50DA500072641D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
-			target = 50BB91AC2C50D22B0090456D /* UPTOrderedDictionary */;
-			targetProxy = 50BB91C42C50D25D0090456D /* PBXContainerItemProxy */;
+			target = 50049CF22C50DA0A0072641D /* OrderedDictionary */;
+			targetProxy = 50049D162C50DA500072641D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		50BB91B22C50D22B0090456D /* Debug */ = {
+		50049CF82C50DA0A0072641D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		50BB91B32C50D22B0090456D /* Release */ = {
+		50049CF92C50DA0A0072641D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +340,7 @@
 			};
 			name = Release;
 		};
-		50BB91B52C50D22B0090456D /* Debug */ = {
+		50049CFB2C50DA0A0072641D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -356,7 +355,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -369,7 +368,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.UPTOrderedDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.OrderedDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -381,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		50BB91B62C50D22B0090456D /* Release */ = {
+		50049CFC2C50DA0A0072641D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -396,7 +395,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -409,7 +408,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.UPTOrderedDictionary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.OrderedDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -421,15 +420,15 @@
 			};
 			name = Release;
 		};
-		50BB91C72C50D25D0090456D /* Debug */ = {
+		50049D192C50DA500072641D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.UPTOrderedDictionaryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.OrderedDictionaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -437,15 +436,15 @@
 			};
 			name = Debug;
 		};
-		50BB91C82C50D25D0090456D /* Release */ = {
+		50049D1A2C50DA500072641D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.UPTOrderedDictionaryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertnash.OrderedDictionaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -457,34 +456,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50BB91A72C50D22B0090456D /* Build configuration list for PBXProject "UPTOrderedDictionary" */ = {
+		50049CED2C50DA0A0072641D /* Build configuration list for PBXProject "OrderedDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50BB91B22C50D22B0090456D /* Debug */,
-				50BB91B32C50D22B0090456D /* Release */,
+				50049CF82C50DA0A0072641D /* Debug */,
+				50049CF92C50DA0A0072641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50BB91B42C50D22B0090456D /* Build configuration list for PBXNativeTarget "UPTOrderedDictionary" */ = {
+		50049CFA2C50DA0A0072641D /* Build configuration list for PBXNativeTarget "OrderedDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50BB91B52C50D22B0090456D /* Debug */,
-				50BB91B62C50D22B0090456D /* Release */,
+				50049CFB2C50DA0A0072641D /* Debug */,
+				50049CFC2C50DA0A0072641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50BB91C62C50D25D0090456D /* Build configuration list for PBXNativeTarget "UPTOrderedDictionaryTests" */ = {
+		50049D182C50DA500072641D /* Build configuration list for PBXNativeTarget "OrderedDictionaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50BB91C72C50D25D0090456D /* Debug */,
-				50BB91C82C50D25D0090456D /* Release */,
+				50049D192C50DA500072641D /* Debug */,
+				50049D1A2C50DA500072641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50BB91A42C50D22B0090456D /* Project object */;
+	rootObject = 50049CEA2C50DA0A0072641D /* Project object */;
 }

@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "E163D237-3456-41B3-B38C-9ED6B5BE1427",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:OrderedDictionary.xcodeproj",
+        "identifier" : "50049D102C50DA500072641D",
+        "name" : "OrderedDictionaryTests"
+      }
+    }
+  ],
+  "version" : 1
+}

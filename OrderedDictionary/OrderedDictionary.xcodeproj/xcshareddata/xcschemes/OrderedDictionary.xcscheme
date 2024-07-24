@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50BB91AC2C50D22B0090456D"
-               BuildableName = "UPTOrderedDictionary.framework"
-               BlueprintName = "UPTOrderedDictionary"
-               ReferencedContainer = "container:UPTOrderedDictionary.xcodeproj">
+               BlueprintIdentifier = "50049CF22C50DA0A0072641D"
+               BuildableName = "OrderedDictionary.framework"
+               BlueprintName = "OrderedDictionary"
+               ReferencedContainer = "container:OrderedDictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,21 +27,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50BB91BE2C50D25D0090456D"
-               BuildableName = "UPTOrderedDictionaryTests.xctest"
-               BlueprintName = "UPTOrderedDictionaryTests"
-               ReferencedContainer = "container:UPTOrderedDictionary.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:OrderedDictionary.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -63,10 +55,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50BB91AC2C50D22B0090456D"
-            BuildableName = "UPTOrderedDictionary.framework"
-            BlueprintName = "UPTOrderedDictionary"
-            ReferencedContainer = "container:UPTOrderedDictionary.xcodeproj">
+            BlueprintIdentifier = "50049CF22C50DA0A0072641D"
+            BuildableName = "OrderedDictionary.framework"
+            BlueprintName = "OrderedDictionary"
+            ReferencedContainer = "container:OrderedDictionary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
